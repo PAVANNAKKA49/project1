@@ -1,0 +1,63 @@
+/* Clock container styling */
+#clockContainer {  
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(clock.png) no-repeat center center;
+    background-size: 100%;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+/* Common styling for all clock hands */
+#hour, #minute, #second {
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+
+/* Hour hand styling */
+#hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;  
+}
+
+/* Minute hand styling */
+#minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+}
+
+/* Second hand styling */
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    background: red;
+    opacity: 0.8; 
+}
+
+/* Digital clock styling */
+#digitalClock {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white; 
+    font-family: 'Arial', sans-serif;
+    background-color: red; 
+    border: 3px solid black; 
+    padding: 10px; 
+    width: fit-content; 
+    margin: 20px auto; 
+    border-radius: 8px; 
+}
